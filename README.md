@@ -1,2 +1,3 @@
 # Mailing-Writeup-HTB-Mailing-Walkthrough-Hack-The-Box
-/home/hamza/Pictures/mailing/Screenshot_2024-07-22_15-03-27.png
+![image](https://github.com/user-attachments/assets/5e5c7212-61f1-445e-9850-b00c5d244e2c)
+

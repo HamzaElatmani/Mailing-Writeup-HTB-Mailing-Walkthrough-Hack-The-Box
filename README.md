@@ -265,6 +265,17 @@ Read data files from: /usr/bin/../share/nmap
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 455.57 seconds
 
+Before diving into the technical exercises, it's crucial to properly configure our environment. A key step is to add mailing.htb to our /etc/hosts file. This addition will help our system recognize the machine by its hostname, facilitating smoother interactions.
+![image](https://github.com/user-attachments/assets/8843af8a-b0a8-4131-9a7d-049f71db2cb1)
+
+navigating to the mailing.htb 
+![image](https://github.com/user-attachments/assets/f1503fee-aea1-484c-807d-086e2696518c)
+After not finding much information from exploring the main webpage of 'The Mailing Box,' I decided to change my approach and try directory busting.
+![image](https://github.com/user-attachments/assets/8b5948b8-fdb1-40cf-98f6-6200080f5b07)
+
+
+
+
 
 
 

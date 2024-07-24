@@ -279,6 +279,25 @@ After not finding much information from exploring the main webpage of 'The Maili
 
 ![image](https://github.com/user-attachments/assets/8b5948b8-fdb1-40cf-98f6-6200080f5b07)
 
+## Exploitation
+While intercepting the request with Burp Suite, we observed that directory traversal is possible through the file path in /download.php. This vulnerability allows us to access sensitive files on the server.
+![burpsuite](https://github.com/user-attachments/assets/028f4eb0-53ed-4ebf-adae-755b91edfce3)
+
+Using directory traversal, we retrieved the administrator password hash from the hMailServer.INI file. Next, we will crack the password. In this example, I used hashcat with the rockyou.txt wordlist. You may use any password cracking tool that you prefer.
+
+![hashcat1](https://github.com/user-attachments/assets/e495ee05-c663-4f0b-8c1d-93a551e5dab1)
+
+After some exploration i was able to find a proper CVE which could help us in capturing user hash.
+
+
+
+
+
+
+
+
+
+
 
 
 
